@@ -1,0 +1,4 @@
+#!/bin/bash
+SHELL_PATH=$(cd $(dirname "$0");pwd)
+python ${SHELL_PATH}/bft.py "$@"
+exit $?
